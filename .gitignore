@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+
+/tracks/node_modules/**/*
+/tracks/.expo/*
+/tracks/npm-debug.*
+/tracks/*.jks
+/tracks/*.p8
+/tracks/*.p12
+/tracks/*.key
+/tracks/*.mobileprovision
+/tracks/*.orig.*
+/tracks/web-build/
+/tracks/web-report/
+
+# macOS
+/tracks/.DS_Store
+
+
+/track-server/node_modules
+/track-server/package-lock.json
